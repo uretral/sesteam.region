@@ -1,0 +1,25 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Database\Eloquent\Model;
+DummyImportSoftDeletesTrait
+
+class DummyClass extends Model
+{
+    DummyUseSoftDeletesTrait
+
+    DummyModelTable
+
+    DummyModelKey
+
+    DummyTimestamp
+
+
+    public static function block($data,$b){
+        return view('test.index',[
+            'data' => $data->helpers,
+            'backend' => $b
+        ]);
+    }
+}

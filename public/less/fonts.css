@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Light'), local('Aleo-Light'), url('../fonts/aleolight.woff2') format('woff2'), url('../fonts/aleolight.woff') format('woff'), url('../fonts/aleolight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Light Italic'), local('Aleo-LightItalic'), url('../fonts/aleolightitalic.woff2') format('woff2'), url('../fonts/aleolightitalic.woff') format('woff'), url('../fonts/aleolightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Regular'), local('Aleo-Regular'), url('../fonts/aleoregular.woff2') format('woff2'), url('../fonts/aleoregular.woff') format('woff'), url('../fonts/aleoregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Italic'), local('Aleo-Italic'), url('../fonts/aleoitalic.woff2') format('woff2'), url('../fonts/aleoitalic.woff') format('woff'), url('../fonts/aleoitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Bold'), local('Aleo-Bold'), url('../fonts/aleobold.woff2') format('woff2'), url('../fonts/aleobold.woff') format('woff'), url('../fonts/aleobold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: local('Aleo Bold Italic'), local('Aleo-BoldItalic'), url('../fonts/aleobolditalic.woff2') format('woff2'), url('../fonts/aleobolditalic.woff') format('woff'), url('../fonts/aleobolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Thin'), local('BebasNeue-Thin'), url('../fonts/bebasneuethin.woff2') format('woff2'), url('../fonts/bebasneuethin.woff') format('woff'), url('../fonts/bebasneuethin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Light'), local('BebasNeue-Light'), url('../fonts/bebasneuelight.woff2') format('woff2'), url('../fonts/bebasneuelight.woff') format('woff'), url('../fonts/bebasneuelight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Book'), local('BebasNeueBook'), url('../fonts/bebasneuebook.woff2') format('woff2'), url('../fonts/bebasneuebook.woff') format('woff'), url('../fonts/bebasneuebook.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Regular'), local('BebasNeueRegular'), url('../fonts/bebasneueregular.woff2') format('woff2'), url('../fonts/bebasneueregular.woff') format('woff'), url('../fonts/bebasneueregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('../fonts/bebasneuebold.woff2') format('woff2'), url('../fonts/bebasneuebold.woff') format('woff'), url('../fonts/bebasneuebold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */
