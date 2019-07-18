@@ -206,7 +206,13 @@ class HomeServiceController extends Controller
         $data = HomeService::where('alias',$alias)->firstOrFail();
         return view('resources.home_service',[
             'data' => $data,
-            'backend' => ''
+            'backend' => '',
+//            'seo' => [
+//                'title' => $row->seo_title,
+//                'description' => $row->seo_desc,
+//                'keywords' => $row->seo_key,
+//            ]
+
         ]);
     }
 }

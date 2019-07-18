@@ -1,5 +1,5 @@
 @extends('tpl.tpl')
-{{--@dump($data)--}}
-{{--@dump(MENU)--}}
-
+@section('content')
 {!! $data !!}
+
+@endsection

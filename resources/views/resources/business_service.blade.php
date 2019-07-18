@@ -1,4 +1,5 @@
 @extends('tpl.tpl')
+@section('content')
 <div class="header-space"></div>
 {!! \App\Models\Statics\Breadcrumbs::resource($data->name) !!}
 {!! \App\Models\Statics\Share::block() !!}
@@ -76,3 +77,4 @@
         </div>
     </div>
 </main>
+@endsection

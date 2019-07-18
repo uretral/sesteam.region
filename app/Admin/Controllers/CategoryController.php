@@ -198,13 +198,19 @@ class CategoryController extends Controller
     public function content(){
 
         $row = Category::where('link',\request()->getPathInfo())->first();
+//        dump($row);
         $arJson = json_decode($row->source);
         $data = '';
         foreach ($arJson as $i){
             $data .= $this->block($i->url,$i->id,$i->static);
         }
         return view('category-pages.mono',[
-            'data' => $data
+            'data' => $data,
+            'seo' => [
+                'title' => $row->seo_title,
+                'description' => $row->seo_desc,
+                'keywords' => $row->seo_key,
+            ]
         ]);
     }
 }

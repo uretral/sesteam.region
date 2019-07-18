@@ -3,13 +3,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <link rel="shortcut icon" href="favicon.ico" />
     <link href="{{ asset('less/style.css') }}" rel="stylesheet">
-    <title></title>
+
+
+    @isset($seo['title'])
+        <title> @isset($seo['title']){{$seo['title']}}@endisset </title>
+        <meta name="keywords" content="@isset($seo['keywords']){{$seo['keywords']}}@endisset ">
+
+        <meta name="description" content="@isset($seo['description']){{$seo['description']}}@endisset">
+    @endisset
+    @isset($data->seo_title)
+        <title>{{$data->seo_title}}</title>
+        <meta name="keywords" content="{{$data->seo_key}}">
+        <meta name="description" content="{{$data->seo_desc}}">
+    @endisset
 </head>
 <body>
-
 <header>
     <div>
         <div class="header">
@@ -78,8 +88,6 @@
         </div>
     </div>
 </header>
-
-
 
 
 @yield('content')

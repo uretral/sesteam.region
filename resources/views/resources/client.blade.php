@@ -1,4 +1,5 @@
 @extends('tpl.tpl')
+@section('content')
 <div class="header-space"></div>
 {!! \App\Models\Statics\Breadcrumbs::resource($data->name) !!}
 {!! \App\Models\Statics\Share::block() !!}
@@ -42,37 +43,6 @@
                         @endforeach
                     </div>
                 @endisset
-{{--
-
-
-
-                @isset($data->price)
-                    <div class="detail-contrast">
-                        <div class="detail-contrast-header">
-                            <p>Прайс-лист</p>
-                        </div>
-                        <div class="detail-contrast-body">
-                            {!! $data->price !!}
-                        </div>
-                        <div class="detail-contrast-footer"></div>
-                    </div>
-                @endisset
-
-                @isset($data->warranty)
-                    <div class="detail-contrast">
-                        <div class="detail-contrast-header">
-                            <p>Гарантия</p>
-                        </div>
-                        <div class="detail-contrast-body">
-                            {!! $data->warranty !!}
-                        </div>
-                        <div class="detail-contrast-footer"></div>
-                    </div>
-                @endisset
-
-
-
---}}
                 @include('forms.feedback')
 
             </div>
@@ -80,4 +50,4 @@
     </div>
 </main>
 
-
+@endsection
